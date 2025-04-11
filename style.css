@@ -1,0 +1,43 @@
+
+
+.container{
+
+border: 2px solid red;
+height: 300px;
+padding: 10px;
+
+
+background-color: aqua;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+justify-content: space-evenly; /*work on x axis child space */
+/*align-content:end; */  /* y axis*/
+box-sizing: border-box;
+}
+
+.ch1,.ch2,.ch3{
+    box-sizing: border-box;
+}
+ .ch1{
+    height: 100px;
+    background-color: beige;
+    border: 2px dotted red;
+   
+ flex-basis:25% ;
+}
+.ch2{
+    height: 100px;
+    background-color: beige;
+    border: 2px dotted red;
+   
+ flex-basis:50% ;
+}
+.ch3{
+    height: 100px;
+    background-color:blueviolet;
+    border: 2px dotted red;
+   
+ flex-basis:25% ;
+}
